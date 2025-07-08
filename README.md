@@ -1,38 +1,42 @@
-# sv
+# Pulseform Survey Dashboard
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Modern, responsive, and blazing-fast admin dashboard built with [Svelte 5](https://svelte.dev/blog/svelte-5) and [Tailwind CSS v4](https://tailwindcss.com). This frontend is part of the **Pulseform Survey** ecosystem — an advanced survey creation and analytics platform.
 
-## Creating a project
+## ✨ Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- 📊 **Survey Analytics**: Visualize summarized survey data in real time.
+- 🧩 **Modular UI**: Built with clean, reusable Svelte components.
+- ⚡️ **Ultra-fast UX**: Powered by Svelte 5 and optimized for performance.
+- 🎨 **Modern Design**: Fully styled with Tailwind CSS v4, no dependencies on CSS resets or external fonts.
+- 🔒 **Auth-ready**: Supports JWT-based authentication.
+- 🌙 **Dark mode-ready**: Designed with theming in mind (coming soon).
+
+## 📦 Tech Stack
+
+- **Svelte 5**
+- **Tailwind CSS 4.1**
+- **TypeScript**
+- **Vite**
+
+> This frontend connects seamlessly to [`pulseform-survey-api`](https://github.com/jfab91/pulseform-survey-api), the backend REST API built with NestJS and MongoDB.
+
+## 📂 Project Structure
+
+src/
+├─ lib/ # Reusable UI components and helpers
+├─ routes/ # App routes powered by SvelteKit
+├─ app.css # Tailwind + custom CSS
+└─ app.html # HTML entrypoint
+
+## 🚀 Getting Started
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Then visit http://localhost:5173
 
-To create a production version of your app:
+## 📌 Status
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+🛠 In active development — feedback, issues and contributions are welcome!
