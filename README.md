@@ -22,11 +22,13 @@ Modern, responsive, and blazing-fast admin dashboard built with [Svelte 5](https
 
 ## 📂 Project Structure
 
+```markdown
 src/
 ├─ lib/ # Reusable UI components and helpers
 ├─ routes/ # App routes powered by SvelteKit
 ├─ app.css # Tailwind + custom CSS
 └─ app.html # HTML entrypoint
+```
 
 ## 🚀 Getting Started
 
