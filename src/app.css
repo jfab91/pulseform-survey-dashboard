@@ -1,3 +1,4 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+@import '@fontsource/inter/latin.css';
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
